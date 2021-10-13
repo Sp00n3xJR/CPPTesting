@@ -23,7 +23,7 @@ using namespace std;
 
 int main() {
 
-	ifstream fs("C:/Users/juho.raki/source/courseinfo.txt"); // File Path
+	ifstream fs("source/courseinfo.txt"); // File Path
 	string s;
 
 	if (fs.fail()) return -1; // could not open the file!
